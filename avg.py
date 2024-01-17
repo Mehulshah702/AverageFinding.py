@@ -3,7 +3,7 @@ def calculate_average(numbers):
     average = total / len(numbers)
     return average
 
-num_count = int(input("Enter the number of values: "))
+num_count = int(input("Enter the number of values : "))
 user_numbers = []
 
 for i in range(num_count):
@@ -11,4 +11,4 @@ for i in range(num_count):
     user_numbers.append(user_input)
 
 avg_result = calculate_average(user_numbers)
-print("Average:", avg_result)
+print("Average : ", avg_result)
